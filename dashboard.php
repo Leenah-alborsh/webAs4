@@ -50,7 +50,7 @@ $lastNews = $pdo->query("
         <div class="stat">
             <div class="d-flex justify-content-between align-items-center">
                 <div>
-                    <div class="text-muted small">المحذوفات (حذف ناعم)</div>
+                    <div class="text-muted small">المحذوفات </div>
                     <div class="k"><?php echo $deletedNews; ?></div>
                 </div>
                 <div class="display-6 text-danger"><i class="bi bi-trash"></i></div>
